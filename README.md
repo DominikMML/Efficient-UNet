@@ -1,1 +1,3 @@
-# Efficient-UNet
+# Efficient-UNet</br>
+Neural network architecture that is designed for semantic segmentation of images, which involves labeling each pixel in an image with a corresponding class label. It is an extension of the U-Net architecture. Efficient U-Net combines the U-Net architecture with the EfficientNet backbone. The EfficientNet backbone allows the Efficient U-Net to efficiently process high-resolution images with fewer parameters and computations than traditional U-Net architectures.
+Efficient U-Net has an encoder-decoder architecture, where the encoder extracts features from the input image and the decoder generates a segmentation map by upsampling the features and concatenating them with features from the encoder at the corresponding resolution. It also uses skip connections to connect the encoder and decoder at different levels of abstraction, allowing it to capture both local and global context information in the image.
